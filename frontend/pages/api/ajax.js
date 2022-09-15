@@ -1,6 +1,6 @@
 import {ACCESS_TOKEN } from './variable';
 
-// ajax function 
+// REST API 
 const request = (options) => {
     const headers = new Headers({
         'Content-Type': 'application/json',
