@@ -1,6 +1,6 @@
 import {ACCESS_TOKEN } from './variable';
 
-// REST API 
+// REST API Module
 const request = (options) => {
     const headers = new Headers({
         'Content-Type': 'application/json',
