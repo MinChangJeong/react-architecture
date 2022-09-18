@@ -23,3 +23,9 @@ const request = (options) => {
         })
     );
 };
+
+// await & async 
+async function logFunction() {
+    var response = await request(); // need param
+    console.log(response);
+}
